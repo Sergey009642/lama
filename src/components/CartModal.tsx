@@ -19,7 +19,7 @@ const CartModal = () =>{
                         alt=""
                         width={72}
                         height={96}
-                        className=" object-cover rounded-md"
+                        className=" object-cover "
                     />
                     <div className=" flex flex-col justify-between w-full">
                         {/* TOP */}
