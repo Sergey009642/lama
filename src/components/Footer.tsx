@@ -35,7 +35,6 @@ const Footer = () => {
            <div className=" flex flex-col justify-between">
             <h1 className="font-medium text-lg">SHOP</h1>
             <div className="flex flex-col gap-6">
-              <Link href=''>New Arrivals</Link>
               <Link href=''>Accessories</Link>
               <Link href=''>Men</Link>
               <Link href=''>Women</Link>
