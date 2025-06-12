@@ -99,7 +99,7 @@ const ProductList = () => {
                 </div>
                 <div className="text-sm text-gray-500">My description</div>
                 <button className="rounded-2xl ring-1 ring-lama text-lama w-max py-2 px-4 text-xs hover:bg-lama hover:text-white">Add to Cart</button>
-            </Link>git
+            </Link>
         </div>
     );
 };
