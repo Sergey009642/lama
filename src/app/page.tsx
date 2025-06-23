@@ -1,4 +1,3 @@
-// "use client"
 
 import CategoryList from "@/components/CategoryList"
 import ProductList from "@/components/ProductList"
@@ -10,18 +9,7 @@ import { useContext, useEffect } from "react"
 
 const HomePage = async () => {
 
-  // const wixClient = useWixClient()
-
-  // useEffect(()=>{
-
-  //   const getProducts = async () => {
-  //     const res = await wixClient.products.queryProducts().find();
-
-  //     console.log(res);
-  //   }
-
-  //   getProducts()
-  // },[wixClient])
+ 
 
   const wixClient = await wixClientServer()
 
